@@ -291,6 +291,16 @@ footer .footer-container {
 
 @media screen and (max-width: 576px){
 
+    nav{
+        gap:20px;
+    }
+
+    nav .menu
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .container {
     width: 95%;
 
@@ -324,7 +334,7 @@ footer .footer-container {
 }
 
 
-#skills .skills-container .skill-box, #about .about-container .about-info, footer .footer-container{
+#skills .skills-container .skill-box, #about .about-container .about-info, footer .footer-container, #resume .resume-container, nav{
     flex-direction: column;
 }
 
@@ -336,6 +346,14 @@ footer .footer-container {
 .footer-container form input[type="text"], .footer-container form textarea {
     width: 100%;
 
+}
+
+#resume .resume-container{
+    margin-top: 60px;
+}
+
+.resume-card{
+    margin-right: 10px;
 }
 
 
