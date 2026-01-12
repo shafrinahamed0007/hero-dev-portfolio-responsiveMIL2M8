@@ -324,12 +324,18 @@ footer .footer-container {
 }
 
 
-#skills .skills-container .skill-box, #about .about-container .about-info{
+#skills .skills-container .skill-box, #about .about-container .about-info, footer .footer-container{
     flex-direction: column;
 }
 
 .skill-box .skill-card{
     max-width: 100%;
+}
+
+
+.footer-container form input[type="text"], .footer-container form textarea {
+    width: 100%;
+
 }
 
 
